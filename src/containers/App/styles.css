@@ -1,0 +1,39 @@
+
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #341cac;
+}
+
+.card {
+  width:280px;
+  display: block;
+  margin: 60px auto;
+  box-shadow: 10px 5px 40px 20px darken(#341cac, 5%);
+  transition: .25s;
+  margin-left:10px;
+  margin-right:10px;
+  
+}
+
+.card:hover {
+    box-shadow: 10px 5px 40px 20px darken(#341cac, 10%);
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pagination {
+    text-align:center;
+}
+
+
+.alert{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin: 25px;
+}

@@ -1,0 +1,13 @@
+
+
+
+export default function constants() {
+    return {
+      LOAD_RECORD: 'LOAD_RECORD',
+      LOAD_RECORD_SUCCESS: 'LOAD_RECORD_SUCCESS',
+      LOAD_RECORD_ERROR: 'LOAD_RECORD_ERROR',
+      LOAD_RECORDS: 'LOAD_RECORDS',
+      LOAD_RECORDS_SUCCESS: 'LOAD_RECORDS_SUCCESS',
+      LOAD_RECORDS_ERROR: 'LOAD_RECORDS_ERROR',
+    };
+  }
